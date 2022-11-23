@@ -22,7 +22,7 @@ The analysis of the dataset in question consisted of two major stages.  First; t
  
 Using the modifications made to the original dataset as described above, a Pivot Table was generated displaying the total count of every successful, failed, and canceled campaign indexed by outcome and the month of the year during which they were launched.  A grand total for each month was also included.  These results were then filtered to show only those data categorized as "theater" and a Pivot Chart line chart (see below) was generated from these results.
 
-![Outcomes Based on Launch Date](https://github.com/AC-Melamed/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
+![Outcomes Based on Launch Date](https://github.com/AC-Melamed/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png)
  
 From this chart a trend is visible whereby campaigns launched between the months of April and May are significantly more likely to succeed than those prior, and those launched during subsequent months decreasingly so.  The number of failed campaigns each month total less than the number of successful ones throughout the entire year while generally mirroring the trendline of the successful outcomes.  Meanwhile, the number of canceled campaigns trends very consistently throughout the year with no obvious seasonal impact.  
  
@@ -30,7 +30,7 @@ From this chart a trend is visible whereby campaigns launched between the months
  
 A second second Pivot Chart was generated using a new table populated by the percentages of successful, failed, and canceled campaigns classified under the Subcategory of "play" sorted by ranges of fundraising goal.  These ranges were divided in increments of $5000, from $1000 and less to $50000 and more.  From this new table, a Pivot Chart line chart (see below) was generated.  
 
-![Outcomes Based on Goals](https://github.com/AC-Melamed/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
+![Outcomes Based on Goals](https://github.com/AC-Melamed/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
  
 From this chart it is evident that campaigns with lower fundraising goals are more likely to succeed than those with higher goals, with some variation.  The first point at which a campaign becomes more likely to fail than succeed is the $15000-19999 mark, after which the probability briefly inverts again between the $30000-34999 and $35000-39999 marks before reverting again approximately around the $40000-44999 mark after which the probability of a successful outcome becomes dramatically decreased and an unsuccessful outcome dramatically increased.    
  
